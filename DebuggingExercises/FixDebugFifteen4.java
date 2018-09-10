@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-public class DebugFifteen4 extends JFrame implements ActionListener
+public class FixDebugFifteen4 extends JFrame implements ActionListener
 {
    JMenuBar mainBar = new JMenuBar();
    JMenu menu1 = new JMenu("File");
@@ -15,7 +15,7 @@ public class DebugFifteen4 extends JFrame implements ActionListener
    JMenuItem madison = new JMenuItem("Madison");
    JLabel label1 = new JLabel(" Wisconsin Facts ");
    JLabel label2 = new JLabel();
-   public DebugFifteen4()
+   public FixDebugFifteen4()
    {
       setTitle("Facts about Wisconsin");
       setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -65,7 +65,7 @@ public class DebugFifteen4 extends JFrame implements ActionListener
  
    public static void main(String[] args)
    {
-      DebugFifteen4 frame = new DebugFifteen4();
+      FixDebugFifteen4 frame = new FixDebugFifteen4();
       final int WIDTH = 250;
       final int HEIGHT = 200;
       frame.setSize(WIDTH, HEIGHT);

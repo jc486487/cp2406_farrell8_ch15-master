@@ -2,8 +2,8 @@
 // using BorderLayout
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
-public class DebugFifteen2 extends JFrame
+
+public class FixDebugFifteen2 extends JFrame
 {
    JButton nb = new JButton("Left    ");
    JButton sb = new JButton("Down  ");
@@ -12,7 +12,7 @@ public class DebugFifteen2 extends JFrame
    JButton cb = new JButton("Up");
    Container con = null;
 
-   public DebugFifteen2()
+   public FixDebugFifteen2()
    {
       con = this.getContentPane();
       con.setLayout(new BorderLayout());
@@ -24,7 +24,7 @@ public class DebugFifteen2 extends JFrame
    }
    public static void main(String[] args)
    {
-      DebugFifteen2 f = new DebugFifteen2();
+      FixDebugFifteen2 f = new FixDebugFifteen2();
       f.setSize(300, 300);
       f.setVisible(true);
    }

@@ -3,14 +3,14 @@
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
-public class DebugFifteen3 extends JFrame implements KeyListener
+public class FixDebugFifteen3 extends JFrame implements KeyListener
 {
    char key;
    Container con = null;
    GridLayout grid = new GridLayout(2, 1);
    JLabel label = new JLabel("Key Typed:");
    JTextArea textArea = new JTextArea(4, 25);
-   public DebugFifteen3()
+   public FixDebugFifteen3()
    {
       setTitle("Debug Key Frame");
       setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -41,7 +41,7 @@ public class DebugFifteen3 extends JFrame implements KeyListener
 
    public static void main(String[] args)
    {
-      DebugFifteen3 kFrame = new DebugFifteen3();
+      FixDebugFifteen3 kFrame = new FixDebugFifteen3();
       kFrame.setSize(300, 200);
       kFrame.setVisible(true);
    }

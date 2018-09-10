@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.Color;
-public class DebugFifteen1 extends JFrame implements ActionListener
+public class FixDebugFifteen1 extends JFrame implements ActionListener
 {
    JButton button1 = new JButton("Red");
    JButton button2 = new JButton("Pink");
@@ -14,7 +14,7 @@ public class DebugFifteen1 extends JFrame implements ActionListener
    JPanel panel1 = new JPanel(new FlowLayout());
    JPanel panel2 = new JPanel();
 
-   public DebugFifteen1()
+   public FixDebugFifteen1()
    {
       setLayout(new GridLayout(1, 2));
       setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -52,6 +52,6 @@ public class DebugFifteen1 extends JFrame implements ActionListener
    }
    public static void main(String[] args)
    {
-      DebugFifteen1 frame = new DebugFifteen1();
+      FixDebugFifteen1 frame = new FixDebugFifteen1();
    }
 }
